@@ -1,0 +1,9 @@
+[theme]
+base="dark"
+
+[ui]
+hide_sidebar_nav = false
+disable_streamlit_branding = false
+
+[server]
+headless = true
