@@ -11,15 +11,6 @@ Este projeto tem como objetivo coletar informações de impressoras via SNMP e g
 - Geração de gráficos interativos com histórico de impressão por impressora.
 - Dashboard visual com filtros e agrupamentos.
 
-## 🗂️ Estrutura do Projeto
-
-printers_getter/
-├── dados/ # Arquivos CSV gerados com os dados de impressão
-├── main.py # Script principal para coleta de dados via SNMP
-├── dashboard.py # Aplicação Streamlit com gráficos interativos
-├── requirements.txt # Lista de dependências do projeto
-└── README.md # Este arquivo
-
 ## ⚙️ Requisitos
 
 Instale as dependências com:
@@ -63,6 +54,6 @@ Certifique-se de que as impressoras estão acessíveis via SNMP na rede.
 
 O projeto pode ser expandido para coletar mais informações no futuro.
 
-👨‍💻 Autor
+👨‍💻
 Desenvolvido por Gabriel Paiva
 🔗 github.com/GabrielPaivaM
