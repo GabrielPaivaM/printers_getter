@@ -26,7 +26,7 @@ Instale as dependências com:
 
 ```bash
 pip install -r requirements.txt
-
+```
 Principais bibliotecas utilizadas:
 
 pysnmp — Para comunicação com as impressoras via SNMP
@@ -40,16 +40,16 @@ plotly — Para os gráficos
 🚀 Como executar
 1. Coletar dados das impressoras
 Execute:
-
+```bash
 python main.py
-
+```
 Os dados serão salvos na pasta dados/, com um CSV.
 
 2. Iniciar o dashboard
 Para visualizar os dados em uma interface gráfica:
-
+```bash
 streamlit run dashboard.py
-
+```
 Isso abrirá uma página no navegador com os gráficos e filtros interativos.
 
 📝 Observações
